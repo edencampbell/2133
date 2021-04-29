@@ -14,9 +14,12 @@ Hello World
 <button id="C2">C2</button>
 <button id="C1">C1</button>
 <button id="Song1">Song1</button>
-
+<button id="Song2">Song2</button>
+<button id="Song3">Song3</button>
 
 <script src="audiosynth.js"></script>
+<script src="playsong2.js"></script>
+<script src="playsong3.js"></script>
 <script type="text/javascript">
 	Synth instanceof AudioSynth; // true
 
@@ -30,6 +33,8 @@ document.getElementById("C3").addEventListener("click", playC3);
 document.getElementById("C2").addEventListener("click", playC2);
 document.getElementById("C1").addEventListener("click", playC1);
 document.getElementById("Song1").addEventListener("click", playSong);
+document.getElementById("Song2").addEventListener("click", playSong2);
+document.getElementById("Song3").addEventListener("click", playSong3);
 
 
 document.getElementById("Song1").addEventListener("click", playSong);
